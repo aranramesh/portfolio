@@ -183,3 +183,75 @@ hr{
   margin-top: -30px;
   padding: px;
 }
+.img1{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
+.img2{
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+@keyframes floating {
+0% { transform: translate(0,  0px); }
+50%  { transform: translate(0, 15px); }
+100%   { transform: translate(0, -0px); }   
+}
+.facts-box{
+  display: flex;
+}
+.facts-box .facts{
+  width: 25%;
+  text-align: center;
+}
+.facts-head h1{
+  text-align: center;
+  font-size: 38px;
+  text-transform: capitalize;
+  color: #FD6C01;
+  padding-top: 20px;
+}
+
+.facts-head{
+  background-color: #ffffE0;
+  height: 380px;  
+}
+.facts{
+ border: solid 1px black;
+ margin-left: 20px;
+ margin-top: 30px;
+ border-radius: 7px;
+
+}
+.facts:hover{
+  transform: rotateY(-360deg);
+  transition: all 0.5s ease;
+}
+.facts-head .fac {
+  width: 72px;
+    height: 72px;
+    background-color:#ffffE0;
+    font-size: 30px;
+    margin-left: 90px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 100%;
+    color: #F44702;
+}
+
+
