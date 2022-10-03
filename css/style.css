@@ -58,16 +58,10 @@ h1,h2,h3,h4,h5,h6 {
   background-color: #FD6C01;
   margin-left: 180px;
 }
-.log img:hover{
-
-}
 .logo img{
   width: 25%;
   margin-top: -23px;
-
- 
 }
-
 .nav{
   display: flex;
   justify-content: space-between;
@@ -310,5 +304,63 @@ hr{
   background: #fff;
   border: 2px solid #FFD02E;
 }
+/* contact starts */
+.contact .info {
+  width: 50%;
+  background: #fff;
+}
+.form-sec{
+  width:50%;
+  
+}
+.form-sec1{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .info i {
+  font-size: 20px;
+  color: #0563bb;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eef7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
 
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #45505b;
+}
 
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #728394;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #0563bb;
+  color: #fff;
+}
+.row .user-input{
+  width: 50%;
+}
+.user-input input{
+  width: 100%;
+}
