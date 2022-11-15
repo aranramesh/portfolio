@@ -24,6 +24,16 @@ a:hover {
   text-decoration: none;
  
 }
+:root{
+  --bg-color: #ffffff;
+  --text-color:#000;
+  --secound-color:#a09dab;
+  --main-color:#f75023;
+  --big-font:5rem;
+  --h2-font:3rem;
+  --p-font:1.1rem;
+
+}
 .container{
   width: 1175px;
   margin: auto;
@@ -34,7 +44,7 @@ h1,h2,h3,h4,h5,h6 {
 .header{
   width: 100%;
   height: 100vh;
-  background: url(../assets/wallpaperflare.co22222222m_wallpaper.jpg) top center;
+  background: url(../assets/background.jpg) top center;
   background-size: cover;
   position: relative;
   
@@ -46,16 +56,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 .hed h1{
   font-family: 'Poppins';
-  color:azure;
+  color:var(--text-color);
   margin-top: -46px;
   margin-left: 86px;
   font-size: 37px;
 }
 .hed h2{
   font-size: 50px;
-  color: #fff;
+  color: var(--text-color);
   font-family: 'Poppins';
 
+}
+span{
+  color: var(--main-color);
 }
 .hed button{
   width: 100px;
@@ -124,6 +137,9 @@ h1,h2,h3,h4,h5,h6 {
 .about-txt h3{
   font-size: 28px;
   color: #FFD02E;
+}
+@media (max-width: 1024px){
+    
 }
 .row{
   display: flex;
@@ -343,7 +359,7 @@ hr{
 }
 /* contact starts */
 .contact{
-  background: #8067f0eb;
+  background: var(--main-color);
   width: 64%;
   margin: 100px auto;
   padding: 70px 150px;
@@ -380,8 +396,8 @@ hr{
 }
 .contact .action form input[type="submit"]{
   padding: 12px 15px;
-  background: var(--main-color);
-  color: var(--bg-color);
+  background: var(--bg-color);
+  color: black;
   border: none;
   outline: none;
   margin: 0 10px 20px 0;
@@ -433,8 +449,8 @@ hr{
 }
 
 #footer .social-links a:hover {
-  will-change: transform;
-  transform: perspective(1000px) rotateX(4.80deg) rotateY(10.3deg) scale3d(1.05,1.05,1.05);
+  background-color: #FFD02E;
+  transform: translateY(-20px);
   text-decoration: none;
 }
 
